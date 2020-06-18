@@ -1,0 +1,47 @@
+.container {
+  max-width: 450px;
+  padding: 20px;
+  margin: 140px auto;
+  color: #444;
+  box-shadow: -10px -10px 30px 4px rgba(0, 0, 0, 0.1),
+    10px 10px 30px 4px rgba(45, 78, 255, 0.15);
+}
+
+.container > h1 {
+  font-size: 25px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+form > div {
+  margin: 5px;
+  text-align: center;
+}
+
+form > div > label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form div input {
+  padding: 10px;
+  width: 80%;
+}
+
+form div button {
+  margin-top: 15px;
+  width: 80%;
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 12px;
+  border-style: none;
+  font-size: 25px;
+}
+
+form div button:hover {
+  cursor: pointer;
+  background-color: rgb(38, 27, 56);
+}
